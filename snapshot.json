@@ -1,7 +1,7 @@
 {
   "as_of": "2026-06-20",
   "prev": "2026-06-19",
-  "generated_at": "2026-06-21T04:57:35Z",
+  "generated_at": "2026-06-21T05:14:20Z",
   "data_age_days": 1,
   "note": "\u26a0\ufe0f STALE DATA \u2014 freshest data is 1 day(s) old (as_of 2026-06-20, exported 2026-06-21): the daily pipeline missed its run. Treat every figure as 1-day-stale and SAY SO at the top of the digest. Authoritative local data from L1 chains.db (DeFiLlama + CoinGecko + growthepie/Dune). Raw signals, no scores. null = NO DATA (do not guess). FRESHNESS: price & market caps are live (today); TVL/stablecoin LEVELS are the latest available (carried forward if a chain's today-point isn't in yet); daily-FLOW metrics (DEX volume, fees, active_addresses, tx_count) are the LAST COMPLETE UTC DAY (today is partial and excluded) \u2014 full-day figures, use them as-is. SHARES are each chain's % of the WHOLE DeFi market (all ~500 chains; denominators in market.total_*), so tracked chains sum to <100% and deltas are immune to which chains we track. TVL/volume are USD-denominated, so share moves in a big market swing partly reflect token price, not pure flows.",
   "market": {
@@ -766,30 +766,30 @@
         "name": "\u200b\u200bStable",
         "symbol": "STABLE",
         "gecko_id": "stable-2",
-        "market_cap_usd": 821797622,
-        "volume_24h_usd": 12963381,
+        "market_cap_usd": 823179228,
+        "volume_24h_usd": 12992703,
         "turnover": 0.016,
-        "price_change_7d_pct": -7.04549816916525,
-        "price_change_30d_pct": 2.739999593265894,
+        "price_change_7d_pct": -5.6726531950205175,
+        "price_change_30d_pct": 2.694751309676444,
         "float_ratio": 0.238,
-        "tvl_usd": 28883024,
+        "tvl_usd": 28883873,
         "tvl_growth_7d_pct": 152.2,
         "tvl_growth_30d_pct": 2019.8,
         "signals": [
           "low_float",
           "tvl_surge"
         ],
-        "rank_key": 148.13
+        "rank_key": 149.46
       },
       {
         "name": "Prom",
         "symbol": "PROM",
         "gecko_id": "prometeus",
-        "market_cap_usd": 21931541,
-        "volume_24h_usd": 3765675,
+        "market_cap_usd": 22054713,
+        "volume_24h_usd": 3799055,
         "turnover": 0.172,
-        "price_change_7d_pct": 13.071873360901176,
-        "price_change_30d_pct": 7.427500442559179,
+        "price_change_7d_pct": 13.206395192351932,
+        "price_change_30d_pct": 5.7964196943924,
         "float_ratio": 0.948,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -799,17 +799,17 @@
           "vol_leads_price",
           "momentum"
         ],
-        "rank_key": 23.07
+        "rank_key": 21.59
       },
       {
         "name": "PHALA",
         "symbol": "PHA",
         "gecko_id": "pha",
-        "market_cap_usd": 31752611,
-        "volume_24h_usd": 9802564,
-        "turnover": 0.309,
-        "price_change_7d_pct": 6.931047527514473,
-        "price_change_30d_pct": 7.108953461645527,
+        "market_cap_usd": 31723544,
+        "volume_24h_usd": 9677482,
+        "turnover": 0.305,
+        "price_change_7d_pct": 6.285898948836337,
+        "price_change_30d_pct": 7.142862301190702,
         "float_ratio": 0.84,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -819,17 +819,17 @@
           "vol_leads_price",
           "momentum"
         ],
-        "rank_key": 18.67
+        "rank_key": 18.0
       },
       {
         "name": "BSquared Network",
         "symbol": "B2",
         "gecko_id": "bsquared-network",
-        "market_cap_usd": 22264312,
-        "volume_24h_usd": 6861652,
-        "turnover": 0.308,
-        "price_change_7d_pct": 23.17717652688594,
-        "price_change_30d_pct": -13.193417773208097,
+        "market_cap_usd": 22148925,
+        "volume_24h_usd": 6501759,
+        "turnover": 0.294,
+        "price_change_7d_pct": 24.102457996561277,
+        "price_change_30d_pct": -13.201203666745364,
         "float_ratio": 0.198,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -839,17 +839,17 @@
           "vol_leads_price",
           "low_float"
         ],
-        "rank_key": 14.61
+        "rank_key": 15.3
       },
       {
         "name": "ADI",
         "symbol": "ADI",
         "gecko_id": "adi-token",
-        "market_cap_usd": 509128865,
-        "volume_24h_usd": 4896499,
+        "market_cap_usd": 509243688,
+        "volume_24h_usd": 4897353,
         "turnover": 0.01,
-        "price_change_7d_pct": 8.892125613224266,
-        "price_change_30d_pct": 5.056121115709703,
+        "price_change_7d_pct": 8.77393148773644,
+        "price_change_30d_pct": 5.116833435236915,
         "float_ratio": 0.125,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -858,17 +858,17 @@
           "momentum",
           "low_float"
         ],
-        "rank_key": 14.09
+        "rank_key": 14.04
       },
       {
         "name": "Metis",
         "symbol": "METIS",
         "gecko_id": "metis-token",
-        "market_cap_usd": 24397717,
-        "volume_24h_usd": 4676159,
-        "turnover": 0.192,
-        "price_change_7d_pct": 20.169252572818365,
-        "price_change_30d_pct": -9.147959546835404,
+        "market_cap_usd": 24365827,
+        "volume_24h_usd": 4176363,
+        "turnover": 0.171,
+        "price_change_7d_pct": 20.256735966034196,
+        "price_change_30d_pct": -9.492130418913607,
         "float_ratio": 0.751,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -877,17 +877,17 @@
           "volume_heat",
           "vol_leads_price"
         ],
-        "rank_key": 13.9
+        "rank_key": 13.34
       },
       {
         "name": "SOON",
         "symbol": "SOON",
         "gecko_id": "soon-2",
-        "market_cap_usd": 58348167,
-        "volume_24h_usd": 7070430,
-        "turnover": 0.121,
-        "price_change_7d_pct": -0.8550775826040108,
-        "price_change_30d_pct": 5.706885503279909,
+        "market_cap_usd": 59411811,
+        "volume_24h_usd": 7613872,
+        "turnover": 0.128,
+        "price_change_7d_pct": 1.7150400853404337,
+        "price_change_30d_pct": 8.66607694705305,
         "float_ratio": 0.339,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -895,17 +895,17 @@
         "signals": [
           "low_float"
         ],
-        "rank_key": 6.67
+        "rank_key": 12.3
       },
       {
         "name": "OpenLedger",
         "symbol": "OPEN",
         "gecko_id": "openledger-2",
-        "market_cap_usd": 48119794,
-        "volume_24h_usd": 8158780,
-        "turnover": 0.17,
-        "price_change_7d_pct": -10.088878367612455,
-        "price_change_30d_pct": 10.493754356609177,
+        "market_cap_usd": 48375618,
+        "volume_24h_usd": 8512796,
+        "turnover": 0.176,
+        "price_change_7d_pct": -9.363898716018264,
+        "price_change_30d_pct": 9.674293060610902,
         "float_ratio": 0.215,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -921,11 +921,11 @@
         "name": "Enjin Coin",
         "symbol": "ENJ",
         "gecko_id": "enjincoin",
-        "market_cap_usd": 69602017,
-        "volume_24h_usd": 11619415,
-        "turnover": 0.167,
-        "price_change_7d_pct": 13.494541603408827,
-        "price_change_30d_pct": -20.11908000766665,
+        "market_cap_usd": 69836726,
+        "volume_24h_usd": 11600900,
+        "turnover": 0.166,
+        "price_change_7d_pct": 13.448219754790209,
+        "price_change_30d_pct": -19.922478300632378,
         "float_ratio": 0.988,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -934,17 +934,17 @@
           "volume_heat",
           "vol_leads_price"
         ],
-        "rank_key": -4.12
+        "rank_key": -3.98
       },
       {
         "name": "MemeCore",
         "symbol": "M",
         "gecko_id": "memecore",
-        "market_cap_usd": 3743695327,
-        "volume_24h_usd": 4458654,
+        "market_cap_usd": 3739472520,
+        "volume_24h_usd": 4442253,
         "turnover": 0.001,
-        "price_change_7d_pct": -6.779303669273376,
-        "price_change_30d_pct": -0.645524830169796,
+        "price_change_7d_pct": -6.910702632052098,
+        "price_change_30d_pct": -1.287577912463656,
         "float_ratio": 0.244,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -952,44 +952,46 @@
         "signals": [
           "low_float"
         ],
-        "rank_key": -7.41
+        "rank_key": -8.18
       },
       {
         "name": "Kava",
         "symbol": "KAVA",
         "gecko_id": "kava",
-        "market_cap_usd": 51974560,
-        "volume_24h_usd": 13622511,
-        "turnover": 0.262,
-        "price_change_7d_pct": 5.188217290366161,
-        "price_change_30d_pct": -19.985640624957323,
+        "market_cap_usd": 51936563,
+        "volume_24h_usd": 14664797,
+        "turnover": 0.282,
+        "price_change_7d_pct": 5.805133805982495,
+        "price_change_30d_pct": -20.033052478228306,
         "float_ratio": 1.0,
-        "tvl_usd": 24382680,
+        "tvl_usd": 24383352,
         "tvl_growth_7d_pct": 0.7,
         "tvl_growth_30d_pct": -29.6,
         "signals": [
           "volume_heat",
           "vol_leads_price"
         ],
-        "rank_key": -10.87
+        "rank_key": -9.99
       },
       {
         "name": "Corn",
         "symbol": "CORN",
         "gecko_id": "corn-3",
-        "market_cap_usd": 22007829,
-        "volume_24h_usd": 3105900,
-        "turnover": 0.141,
-        "price_change_7d_pct": -4.5416154446963874,
-        "price_change_30d_pct": -8.458643177489071,
+        "market_cap_usd": 21970416,
+        "volume_24h_usd": 4764071,
+        "turnover": 0.217,
+        "price_change_7d_pct": -4.64940544705456,
+        "price_change_30d_pct": -8.812717302924375,
         "float_ratio": 0.25,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
         "tvl_growth_30d_pct": null,
         "signals": [
+          "volume_heat",
+          "vol_leads_price",
           "low_float"
         ],
-        "rank_key": -10.88
+        "rank_key": -10.21
       }
     ]
   },
@@ -999,11 +1001,11 @@
       {
         "id": "breeding",
         "name": "Breeding",
-        "market_cap_usd": 209102283,
-        "mcap_change_24h_pct": 24.78865234243834,
-        "volume_24h_usd": 199404350.5925035,
-        "breadth_7d_pct": 85.7,
-        "median_7d_pct": 4.2,
+        "market_cap_usd": 206569700,
+        "mcap_change_24h_pct": 23.277250013565247,
+        "volume_24h_usd": 206985083.40356126,
+        "breadth_7d_pct": 78.6,
+        "median_7d_pct": 4.0,
         "leaders": [
           {
             "name": "Blockchain Monster Hunt",
@@ -1015,270 +1017,270 @@
           {
             "name": "Axie Infinity",
             "symbol": "AXS",
-            "price_change_7d_pct": 22.30185096967669,
-            "price_change_30d_pct": -1.9704167223614504,
-            "market_cap_usd": 206495216.0
+            "price_change_7d_pct": 19.659654647480313,
+            "price_change_30d_pct": -3.51146354149205,
+            "market_cap_usd": 203995857.0
           },
           {
             "name": "Waves Ducks",
             "symbol": "EGG",
-            "price_change_7d_pct": 12.852082643361243,
-            "price_change_30d_pct": -41.32546594618809,
-            "market_cap_usd": 173353.0
+            "price_change_7d_pct": 12.120830956962982,
+            "price_change_30d_pct": -41.77215715993713,
+            "market_cap_usd": 171628.0
           }
         ],
         "signals": [
           "broad_heating",
           "rotating_in"
         ],
-        "rank_key": 46.13
+        "rank_key": 43.0
       },
       {
         "id": "simulation-games",
         "name": "Simulation Games",
-        "market_cap_usd": 333701513,
-        "mcap_change_24h_pct": 16.982903477115705,
-        "volume_24h_usd": 334483113.2176294,
-        "breadth_7d_pct": 66.7,
-        "median_7d_pct": 4.7,
+        "market_cap_usd": 331019252,
+        "mcap_change_24h_pct": 16.04260620053883,
+        "volume_24h_usd": 331245597.7222876,
+        "breadth_7d_pct": 55.6,
+        "median_7d_pct": 4.6,
         "leaders": [
           {
             "name": "My Neighbor Alice",
             "symbol": "ALICE",
-            "price_change_7d_pct": 66.3199095088176,
-            "price_change_30d_pct": 34.909430672150904,
-            "market_cap_usd": 17539424.0
+            "price_change_7d_pct": 61.15887012429469,
+            "price_change_30d_pct": 31.048518164086005,
+            "market_cap_usd": 16991271.0
           },
           {
             "name": "Decentraland",
             "symbol": "MANA",
-            "price_change_7d_pct": 14.214023576488088,
-            "price_change_30d_pct": -14.560657971387766,
-            "market_cap_usd": 148485529.0
+            "price_change_7d_pct": 14.148640248430056,
+            "price_change_30d_pct": -15.3298064007749,
+            "market_cap_usd": 147706742.0
           },
           {
             "name": "The Sandbox",
             "symbol": "SAND",
-            "price_change_7d_pct": 12.939594477082414,
-            "price_change_30d_pct": -19.63370153618122,
-            "market_cap_usd": 157612171.0
+            "price_change_7d_pct": 11.380343462183566,
+            "price_change_30d_pct": -20.735518202611246,
+            "market_cap_usd": 156470572.0
           }
         ],
         "signals": [
           "broad_heating",
           "rotating_in"
         ],
-        "rank_key": 35.02
+        "rank_key": 31.76
       },
       {
         "id": "fixed-interest",
         "name": "Fixed Interest",
-        "market_cap_usd": 276878770,
-        "mcap_change_24h_pct": 7.202052390653504,
-        "volume_24h_usd": 35765715.38250606,
+        "market_cap_usd": 275658087,
+        "mcap_change_24h_pct": 6.729428036526282,
+        "volume_24h_usd": 36586938.823061526,
         "breadth_7d_pct": 90.0,
         "median_7d_pct": 3.6,
         "leaders": [
           {
             "name": "saffron.finance",
             "symbol": "SFI",
-            "price_change_7d_pct": 21.647399702035454,
-            "price_change_30d_pct": 12.563287756954416,
-            "market_cap_usd": 9804125.0
+            "price_change_7d_pct": 22.342701414208594,
+            "price_change_30d_pct": 12.44167100439562,
+            "market_cap_usd": 9800152.0
           },
           {
             "name": "Pendle",
             "symbol": "PENDLE",
-            "price_change_7d_pct": 11.564679149247468,
-            "price_change_30d_pct": -24.043792807719417,
-            "market_cap_usd": 253882669.0
+            "price_change_7d_pct": 12.028122442177008,
+            "price_change_30d_pct": -24.76782811349123,
+            "market_cap_usd": 252945709.0
           },
           {
             "name": "88mph",
             "symbol": "MPH",
-            "price_change_7d_pct": 7.182752602693224,
-            "price_change_30d_pct": -15.975685145634328,
-            "market_cap_usd": 16313.12
+            "price_change_7d_pct": 7.171814931938106,
+            "price_change_30d_pct": -15.735915880266448,
+            "market_cap_usd": 16313.27
           }
         ],
         "signals": [
           "broad_heating",
           "rotating_in"
         ],
-        "rank_key": 28.8
+        "rank_key": 28.33
       },
       {
         "id": "card-games",
         "name": "Card Games",
-        "market_cap_usd": 251315433,
-        "mcap_change_24h_pct": 20.116099887564527,
-        "volume_24h_usd": 210438837.92287976,
+        "market_cap_usd": 248889010,
+        "mcap_change_24h_pct": 18.95639213093773,
+        "volume_24h_usd": 217654662.81133074,
         "breadth_7d_pct": 38.2,
-        "median_7d_pct": -1.3,
+        "median_7d_pct": -1.2,
         "leaders": [
           {
             "name": "Axie Infinity",
             "symbol": "AXS",
-            "price_change_7d_pct": 22.30185096967669,
-            "price_change_30d_pct": -1.9704167223614504,
-            "market_cap_usd": 206495216.0
+            "price_change_7d_pct": 19.659654647480313,
+            "price_change_30d_pct": -3.51146354149205,
+            "market_cap_usd": 203995857.0
           },
           {
             "name": "Raini Studios Token",
             "symbol": "RST",
-            "price_change_7d_pct": 13.205937306351116,
-            "price_change_30d_pct": -29.81843882714464,
-            "market_cap_usd": 73468.0
+            "price_change_7d_pct": 13.052635570683401,
+            "price_change_30d_pct": -29.913477615707055,
+            "market_cap_usd": 73414.0
           },
           {
-            "name": "Operon Origins",
-            "symbol": "ORO",
-            "price_change_7d_pct": 9.713580030416026,
-            "price_change_30d_pct": -9.473437765015678,
-            "market_cap_usd": 145114.0
+            "name": "Wild Forest Token",
+            "symbol": "WF",
+            "price_change_7d_pct": 8.47462413726982,
+            "price_change_30d_pct": -51.96058939643249,
+            "market_cap_usd": 81169.0
           }
         ],
         "signals": [],
-        "rank_key": 26.46
+        "rank_key": 25.4
       },
       {
         "id": "lrtfi",
         "name": "LRTfi",
-        "market_cap_usd": 257766323,
-        "mcap_change_24h_pct": 7.390694162377896,
-        "volume_24h_usd": 35805543.354140386,
+        "market_cap_usd": 256557476,
+        "mcap_change_24h_pct": 6.887063913128601,
+        "volume_24h_usd": 36643578.32022754,
         "breadth_7d_pct": 66.7,
         "median_7d_pct": 3.2,
         "leaders": [
           {
             "name": "Pendle",
             "symbol": "PENDLE",
-            "price_change_7d_pct": 11.564679149247468,
-            "price_change_30d_pct": -24.043792807719417,
-            "market_cap_usd": 253882669.0
+            "price_change_7d_pct": 12.028122442177008,
+            "price_change_30d_pct": -24.76782811349123,
+            "market_cap_usd": 252945709.0
           },
           {
             "name": "Sommelier",
             "symbol": "SOMM",
-            "price_change_7d_pct": 3.2190894109693633,
-            "price_change_30d_pct": 21.965656881484104,
-            "market_cap_usd": 201810.0
+            "price_change_7d_pct": 3.1829557956561594,
+            "price_change_30d_pct": 21.626410451818305,
+            "market_cap_usd": 201726.0
           },
           {
             "name": "Thetanuts Finance",
             "symbol": "NUTS",
-            "price_change_7d_pct": -0.20588993707857423,
-            "price_change_30d_pct": -4.449855555562352,
-            "market_cap_usd": 3687053.0
+            "price_change_7d_pct": -0.6354001534744845,
+            "price_change_30d_pct": -4.623378991577665,
+            "market_cap_usd": 3679235.0
           }
         ],
         "signals": [
           "broad_heating",
           "rotating_in"
         ],
-        "rank_key": 23.93
+        "rank_key": 23.43
       },
       {
         "id": "gaming-governance-token",
         "name": "Gaming Governance Token",
-        "market_cap_usd": 518121057,
-        "mcap_change_24h_pct": 12.500882484907267,
-        "volume_24h_usd": 419239773.54965276,
-        "breadth_7d_pct": 38.0,
-        "median_7d_pct": -0.2,
+        "market_cap_usd": 514384976,
+        "mcap_change_24h_pct": 11.689658112682265,
+        "volume_24h_usd": 412478969.3141818,
+        "breadth_7d_pct": 42.0,
+        "median_7d_pct": -0.6,
         "leaders": [
           {
             "name": "My Neighbor Alice",
             "symbol": "ALICE",
-            "price_change_7d_pct": 66.3199095088176,
-            "price_change_30d_pct": 34.909430672150904,
-            "market_cap_usd": 17539424.0
+            "price_change_7d_pct": 61.15887012429469,
+            "price_change_30d_pct": 31.048518164086005,
+            "market_cap_usd": 16991271.0
           },
           {
             "name": "Arena-Z",
             "symbol": "A2Z",
-            "price_change_7d_pct": 46.16660113344196,
-            "price_change_30d_pct": -36.25009056658986,
-            "market_cap_usd": 377460.0
+            "price_change_7d_pct": 47.266605410150106,
+            "price_change_30d_pct": -36.11023128350773,
+            "market_cap_usd": 374977.0
           },
           {
             "name": "Aurory",
             "symbol": "AURY",
-            "price_change_7d_pct": 30.69836320520548,
-            "price_change_30d_pct": -2.3871964122868823,
-            "market_cap_usd": 1923321.0
+            "price_change_7d_pct": 30.410777874611217,
+            "price_change_30d_pct": -2.3883200844891177,
+            "market_cap_usd": 1923332.0
           }
         ],
         "signals": [],
-        "rank_key": 19.9
-      },
-      {
-        "id": "gaming-utility-token",
-        "name": "Gaming Utility Token",
-        "market_cap_usd": 736839011,
-        "mcap_change_24h_pct": 11.61625846853742,
-        "volume_24h_usd": 553038764.2585937,
-        "breadth_7d_pct": 40.0,
-        "median_7d_pct": -3.2,
-        "leaders": [
-          {
-            "name": "My Neighbor Alice",
-            "symbol": "ALICE",
-            "price_change_7d_pct": 66.3199095088176,
-            "price_change_30d_pct": 34.909430672150904,
-            "market_cap_usd": 17539424.0
-          },
-          {
-            "name": "Arena-Z",
-            "symbol": "A2Z",
-            "price_change_7d_pct": 46.16660113344196,
-            "price_change_30d_pct": -36.25009056658986,
-            "market_cap_usd": 377460.0
-          },
-          {
-            "name": "Aurory",
-            "symbol": "AURY",
-            "price_change_7d_pct": 30.69836320520548,
-            "price_change_30d_pct": -2.3871964122868823,
-            "market_cap_usd": 1923321.0
-          }
-        ],
-        "signals": [],
-        "rank_key": 16.42
+        "rank_key": 19.49
       },
       {
         "id": "dex-aggregator",
         "name": "Dex Aggregator",
-        "market_cap_usd": 1027633417,
-        "mcap_change_24h_pct": 9.054393015370913,
-        "volume_24h_usd": 133472262.0839599,
-        "breadth_7d_pct": 45.2,
-        "median_7d_pct": -1.8,
+        "market_cap_usd": 1022597163,
+        "mcap_change_24h_pct": 8.519936295028494,
+        "volume_24h_usd": 130516238.97937976,
+        "breadth_7d_pct": 48.4,
+        "median_7d_pct": -0.5,
         "leaders": [
           {
             "name": "MasterDEX",
             "symbol": "MDEX",
-            "price_change_7d_pct": 58.40187452155989,
-            "price_change_30d_pct": -38.93930910276649,
-            "market_cap_usd": 273576.0
+            "price_change_7d_pct": 58.47230539237537,
+            "price_change_30d_pct": -38.91215943900476,
+            "market_cap_usd": 273697.0
           },
           {
             "name": "Jupiter",
             "symbol": "JUP",
-            "price_change_7d_pct": 26.683371163984752,
-            "price_change_30d_pct": 3.101592267884589,
-            "market_cap_usd": 727865397.0
+            "price_change_7d_pct": 27.362533094007098,
+            "price_change_30d_pct": 3.332093109617592,
+            "market_cap_usd": 727874216.0
           },
           {
-            "name": "Dolomite",
-            "symbol": "DOLO",
-            "price_change_7d_pct": 12.195952390516082,
-            "price_change_30d_pct": -15.343258718973885,
-            "market_cap_usd": 13615837.0
+            "name": "BlockTrader365",
+            "symbol": "BT365",
+            "price_change_7d_pct": 14.013707706379394,
+            "price_change_30d_pct": -24.79847322332829,
+            "market_cap_usd": 1779482.0
           }
         ],
         "signals": [],
-        "rank_key": 16.29
+        "rank_key": 17.7
+      },
+      {
+        "id": "gaming-utility-token",
+        "name": "Gaming Utility Token",
+        "market_cap_usd": 731970938,
+        "mcap_change_24h_pct": 10.878843522340139,
+        "volume_24h_usd": 536239018.16647357,
+        "breadth_7d_pct": 40.0,
+        "median_7d_pct": -3.3,
+        "leaders": [
+          {
+            "name": "My Neighbor Alice",
+            "symbol": "ALICE",
+            "price_change_7d_pct": 61.143629360075224,
+            "price_change_30d_pct": 31.036124930222382,
+            "market_cap_usd": 16991271.0
+          },
+          {
+            "name": "Arena-Z",
+            "symbol": "A2Z",
+            "price_change_7d_pct": 47.266605410150106,
+            "price_change_30d_pct": -36.11023128350773,
+            "market_cap_usd": 374977.0
+          },
+          {
+            "name": "Aurory",
+            "symbol": "AURY",
+            "price_change_7d_pct": 30.410777874611217,
+            "price_change_30d_pct": -2.3883200844891177,
+            "market_cap_usd": 1923332.0
+          }
+        ],
+        "signals": [],
+        "rank_key": 15.58
       }
     ]
   },
@@ -1303,5 +1305,108 @@
       }
     ],
     "note": "Curated dated catalysts (edit catalysts.json). DeFiLlama unlocks API is Pro-gated; the routine news-scan supplements. Fold these into the Open Items ledger."
+  },
+  "attention": {
+    "source": "CoinGecko /search/trending (search/view velocity = retail attention proxy; LunarCrush free tier is locked/402)",
+    "trending_coins": [
+      {
+        "name": "Biconomy",
+        "symbol": "BICO",
+        "market_cap_rank": 492,
+        "price_change_24h_pct": 75.64630302622903
+      },
+      {
+        "name": "Pudgy Penguins",
+        "symbol": "PENGU",
+        "market_cap_rank": 114,
+        "price_change_24h_pct": 0.8142007963051047
+      },
+      {
+        "name": "Axie Infinity",
+        "symbol": "AXS",
+        "market_cap_rank": 177,
+        "price_change_24h_pct": -0.163211840644787
+      },
+      {
+        "name": "Jupiter",
+        "symbol": "JUP",
+        "market_cap_rank": 82,
+        "price_change_24h_pct": 11.710883973768999
+      },
+      {
+        "name": "Bittensor",
+        "symbol": "TAO",
+        "market_cap_rank": 41,
+        "price_change_24h_pct": 2.417291306608475
+      },
+      {
+        "name": "RE",
+        "symbol": "RE",
+        "market_cap_rank": 195,
+        "price_change_24h_pct": 21.205616512907373
+      },
+      {
+        "name": "Hyperliquid",
+        "symbol": "HYPE",
+        "market_cap_rank": 10,
+        "price_change_24h_pct": -1.0848999597234898
+      },
+      {
+        "name": "Kaspa",
+        "symbol": "KAS",
+        "market_cap_rank": 79,
+        "price_change_24h_pct": -1.0845320993326875
+      },
+      {
+        "name": "Solana",
+        "symbol": "SOL",
+        "market_cap_rank": 7,
+        "price_change_24h_pct": 2.6470909006137044
+      },
+      {
+        "name": "Pi Network",
+        "symbol": "PI",
+        "market_cap_rank": 55,
+        "price_change_24h_pct": -1.1337742846666579
+      },
+      {
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "market_cap_rank": 1,
+        "price_change_24h_pct": 0.8796794000921901
+      },
+      {
+        "name": "Backpack",
+        "symbol": "BP",
+        "market_cap_rank": 191,
+        "price_change_24h_pct": 13.746259275335444
+      },
+      {
+        "name": "Main Street USD",
+        "symbol": "MSUSD",
+        "market_cap_rank": 950,
+        "price_change_24h_pct": -74.61548672541672
+      },
+      {
+        "name": "Aerodrome Finance",
+        "symbol": "AERO",
+        "market_cap_rank": 100,
+        "price_change_24h_pct": 10.185931128445795
+      },
+      {
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "market_cap_rank": 46,
+        "price_change_24h_pct": -2.443986173077199
+      }
+    ],
+    "trending_categories": [
+      "Trading Card RWA Platform",
+      "USD Stablecoin",
+      "Stablecoins",
+      "Base Native",
+      "Centralized Exchange (CEX) Token",
+      "Insurance"
+    ]
   }
 }
