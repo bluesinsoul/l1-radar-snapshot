@@ -1,7 +1,7 @@
 {
   "as_of": "2026-06-21",
   "prev": "2026-06-20",
-  "generated_at": "2026-06-21T12:27:13Z",
+  "generated_at": "2026-06-21T15:42:13Z",
   "data_age_days": 0,
   "note": "Authoritative local data from L1 chains.db (DeFiLlama + CoinGecko + growthepie/Dune). Raw signals, no scores. null = NO DATA (do not guess). FRESHNESS: price & market caps are live (today); TVL/stablecoin LEVELS are the latest available (carried forward if a chain's today-point isn't in yet); daily-FLOW metrics (DEX volume, fees, active_addresses, tx_count) are the LAST COMPLETE UTC DAY (today is partial and excluded) \u2014 full-day figures, use them as-is. SHARES are each chain's % of the WHOLE DeFi market (all ~500 chains; denominators in market.total_*), so tracked chains sum to <100% and deltas are immune to which chains we track. TVL/volume are USD-denominated, so share moves in a big market swing partly reflect token price, not pure flows.",
   "market": {
@@ -766,69 +766,30 @@
         "name": "\u200b\u200bStable",
         "symbol": "STABLE",
         "gecko_id": "stable-2",
-        "market_cap_usd": 815598213,
-        "volume_24h_usd": 11044981,
+        "market_cap_usd": 821048096,
+        "volume_24h_usd": 11373865,
         "turnover": 0.014,
-        "price_change_7d_pct": -2.2116336493990447,
-        "price_change_30d_pct": 7.666850788965922,
+        "price_change_7d_pct": -1.1500534809314316,
+        "price_change_30d_pct": 8.322692178062955,
         "float_ratio": 0.238,
-        "tvl_usd": 28881908,
+        "tvl_usd": 28885123,
         "tvl_growth_7d_pct": 152.2,
-        "tvl_growth_30d_pct": 2019.7,
+        "tvl_growth_30d_pct": 2019.9,
         "signals": [
           "low_float",
           "tvl_surge"
         ],
-        "rank_key": 157.86
-      },
-      {
-        "name": "ADI",
-        "symbol": "ADI",
-        "gecko_id": "adi-token",
-        "market_cap_usd": 516393706,
-        "volume_24h_usd": 5448522,
-        "turnover": 0.011,
-        "price_change_7d_pct": 10.463188515562315,
-        "price_change_30d_pct": 5.5234183453055286,
-        "float_ratio": 0.125,
-        "tvl_usd": null,
-        "tvl_growth_7d_pct": null,
-        "tvl_growth_30d_pct": null,
-        "signals": [
-          "momentum",
-          "low_float"
-        ],
-        "rank_key": 16.14
-      },
-      {
-        "name": "Prom",
-        "symbol": "PROM",
-        "gecko_id": "prometeus",
-        "market_cap_usd": 21114920,
-        "volume_24h_usd": 3648116,
-        "turnover": 0.173,
-        "price_change_7d_pct": 8.555330282994506,
-        "price_change_30d_pct": 3.2810852523389817,
-        "float_ratio": 0.948,
-        "tvl_usd": null,
-        "tvl_growth_7d_pct": null,
-        "tvl_growth_30d_pct": null,
-        "signals": [
-          "volume_heat",
-          "vol_leads_price",
-          "momentum"
-        ],
-        "rank_key": 14.43
+        "rank_key": 159.58
       },
       {
         "name": "PHALA",
         "symbol": "PHA",
         "gecko_id": "pha",
-        "market_cap_usd": 31117220,
-        "volume_24h_usd": 9175562,
-        "turnover": 0.295,
-        "price_change_7d_pct": 3.3273780267603787,
-        "price_change_30d_pct": 5.962632305462054,
+        "market_cap_usd": 31562868,
+        "volume_24h_usd": 7632623,
+        "turnover": 0.242,
+        "price_change_7d_pct": 8.949555432462763,
+        "price_change_30d_pct": 8.684317507636452,
         "float_ratio": 0.84,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -838,17 +799,36 @@
           "vol_leads_price",
           "momentum"
         ],
-        "rank_key": 13.71
+        "rank_key": 21.26
+      },
+      {
+        "name": "ADI",
+        "symbol": "ADI",
+        "gecko_id": "adi-token",
+        "market_cap_usd": 519729035,
+        "volume_24h_usd": 5578827,
+        "turnover": 0.011,
+        "price_change_7d_pct": 11.280602907994997,
+        "price_change_30d_pct": 6.2935486559313425,
+        "float_ratio": 0.125,
+        "tvl_usd": null,
+        "tvl_growth_7d_pct": null,
+        "tvl_growth_30d_pct": null,
+        "signals": [
+          "momentum",
+          "low_float"
+        ],
+        "rank_key": 17.74
       },
       {
         "name": "BSquared Network",
         "symbol": "B2",
         "gecko_id": "bsquared-network",
-        "market_cap_usd": 21821208,
-        "volume_24h_usd": 6356075,
-        "turnover": 0.291,
-        "price_change_7d_pct": 22.355718353312653,
-        "price_change_30d_pct": -15.437744819347973,
+        "market_cap_usd": 22906184,
+        "volume_24h_usd": 6409551,
+        "turnover": 0.28,
+        "price_change_7d_pct": 27.61692014235023,
+        "price_change_30d_pct": -16.174345351495468,
         "float_ratio": 0.198,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -858,55 +838,53 @@
           "vol_leads_price",
           "low_float"
         ],
-        "rank_key": 11.29
+        "rank_key": 15.64
       },
       {
-        "name": "Midnight",
-        "symbol": "NIGHT",
-        "gecko_id": "midnight-3",
-        "market_cap_usd": 548663748,
-        "volume_24h_usd": 10693832,
-        "turnover": 0.019,
-        "price_change_7d_pct": 3.8546513515028753,
-        "price_change_30d_pct": 6.117932832901066,
-        "float_ratio": 0.692,
+        "name": "Prom",
+        "symbol": "PROM",
+        "gecko_id": "prometeus",
+        "market_cap_usd": 21351540,
+        "volume_24h_usd": 2024051,
+        "turnover": 0.095,
+        "price_change_7d_pct": 10.84829610570865,
+        "price_change_30d_pct": 1.0230383992020524,
+        "float_ratio": 0.948,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
         "tvl_growth_30d_pct": null,
         "signals": [
           "momentum"
         ],
-        "rank_key": 10.26
+        "rank_key": 13.29
       },
       {
         "name": "SOON",
         "symbol": "SOON",
         "gecko_id": "soon-2",
-        "market_cap_usd": 59882846,
-        "volume_24h_usd": 14925285,
-        "turnover": 0.249,
-        "price_change_7d_pct": -1.9114342407775473,
-        "price_change_30d_pct": 3.708401836267462,
+        "market_cap_usd": 59702476,
+        "volume_24h_usd": 8589036,
+        "turnover": 0.144,
+        "price_change_7d_pct": -0.15412107073528725,
+        "price_change_30d_pct": 4.247567881713186,
         "float_ratio": 0.339,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
         "tvl_growth_30d_pct": null,
         "signals": [
-          "volume_heat",
-          "vol_leads_price",
           "low_float"
         ],
-        "rank_key": 5.54
+        "rank_key": 6.25
       },
       {
         "name": "OpenLedger",
         "symbol": "OPEN",
         "gecko_id": "openledger-2",
-        "market_cap_usd": 46563957,
-        "volume_24h_usd": 7678096,
-        "turnover": 0.165,
-        "price_change_7d_pct": -15.99732608143308,
-        "price_change_30d_pct": 9.290589358876614,
+        "market_cap_usd": 46942636,
+        "volume_24h_usd": 7281048,
+        "turnover": 0.155,
+        "price_change_7d_pct": -7.882826199163697,
+        "price_change_30d_pct": 11.24830541522368,
         "float_ratio": 0.215,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -916,17 +894,17 @@
           "vol_leads_price",
           "low_float"
         ],
-        "rank_key": -4.23
+        "rank_key": 5.69
       },
       {
         "name": "MemeCore",
         "symbol": "M",
         "gecko_id": "memecore",
-        "market_cap_usd": 3713265224,
-        "volume_24h_usd": 4389791,
+        "market_cap_usd": 3739282755,
+        "volume_24h_usd": 4378519,
         "turnover": 0.001,
-        "price_change_7d_pct": -4.750422187669619,
-        "price_change_30d_pct": -1.6016600578355549,
+        "price_change_7d_pct": -3.682058893071839,
+        "price_change_30d_pct": 0.6674409143792326,
         "float_ratio": 0.244,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -934,36 +912,36 @@
         "signals": [
           "low_float"
         ],
-        "rank_key": -6.33
+        "rank_key": -3.0
       },
       {
-        "name": "Enjin Coin",
-        "symbol": "ENJ",
-        "gecko_id": "enjincoin",
-        "market_cap_usd": 67518370,
-        "volume_24h_usd": 10244294,
-        "turnover": 0.152,
-        "price_change_7d_pct": 9.268109451096416,
-        "price_change_30d_pct": -21.279238147191883,
-        "float_ratio": 0.988,
-        "tvl_usd": null,
-        "tvl_growth_7d_pct": null,
-        "tvl_growth_30d_pct": null,
+        "name": "Kava",
+        "symbol": "KAVA",
+        "gecko_id": "kava",
+        "market_cap_usd": 51762456,
+        "volume_24h_usd": 13875799,
+        "turnover": 0.268,
+        "price_change_7d_pct": 5.817609976899931,
+        "price_change_30d_pct": -20.747870749015675,
+        "float_ratio": 1.0,
+        "tvl_usd": 24090638,
+        "tvl_growth_7d_pct": -0.5,
+        "tvl_growth_30d_pct": -30.4,
         "signals": [
           "volume_heat",
           "vol_leads_price"
         ],
-        "rank_key": -9.74
+        "rank_key": -10.91
       },
       {
         "name": "Corn",
         "symbol": "CORN",
         "gecko_id": "corn-3",
-        "market_cap_usd": 21947360,
-        "volume_24h_usd": 4813679,
-        "turnover": 0.219,
-        "price_change_7d_pct": -5.267474962747652,
-        "price_change_30d_pct": -8.065496463211181,
+        "market_cap_usd": 22022075,
+        "volume_24h_usd": 5049872,
+        "turnover": 0.229,
+        "price_change_7d_pct": -4.534162957377013,
+        "price_change_30d_pct": -10.391597630906322,
         "float_ratio": 0.25,
         "tvl_usd": null,
         "tvl_growth_7d_pct": null,
@@ -973,26 +951,45 @@
           "vol_leads_price",
           "low_float"
         ],
-        "rank_key": -10.04
+        "rank_key": -11.49
       },
       {
-        "name": "Kava",
-        "symbol": "KAVA",
-        "gecko_id": "kava",
-        "market_cap_usd": 51718063,
-        "volume_24h_usd": 13833506,
-        "turnover": 0.267,
-        "price_change_7d_pct": 5.43977482922041,
-        "price_change_30d_pct": -20.217332015054893,
-        "float_ratio": 1.0,
-        "tvl_usd": 24224412,
-        "tvl_growth_7d_pct": 0.1,
-        "tvl_growth_30d_pct": -30.0,
+        "name": "CYBER",
+        "symbol": "CYBER",
+        "gecko_id": "cyberconnect",
+        "market_cap_usd": 24777719,
+        "volume_24h_usd": 5790031,
+        "turnover": 0.234,
+        "price_change_7d_pct": 9.126107021738406,
+        "price_change_30d_pct": -25.767961207975937,
+        "float_ratio": 0.672,
+        "tvl_usd": null,
+        "tvl_growth_7d_pct": null,
+        "tvl_growth_30d_pct": null,
         "signals": [
           "volume_heat",
           "vol_leads_price"
         ],
-        "rank_key": -10.77
+        "rank_key": -13.14
+      },
+      {
+        "name": "Hive",
+        "symbol": "HIVE",
+        "gecko_id": "hive",
+        "market_cap_usd": 27171450,
+        "volume_24h_usd": 4701521,
+        "turnover": 0.173,
+        "price_change_7d_pct": 1.1250884673102666,
+        "price_change_30d_pct": -18.20885826693059,
+        "float_ratio": 0.492,
+        "tvl_usd": null,
+        "tvl_growth_7d_pct": null,
+        "tvl_growth_30d_pct": null,
+        "signals": [
+          "volume_heat",
+          "vol_leads_price"
+        ],
+        "rank_key": -14.49
       }
     ]
   },
@@ -1000,64 +997,11 @@
     "method": "CoinGecko category momentum (24h mcap change + constituent 7d breadth/median); thematic narratives only (chain-ecosystem/stablecoin categories excluded)",
     "sectors": [
       {
-        "id": "echo-launchpad",
-        "name": "Echo Launchpad",
-        "market_cap_usd": 5228397855,
-        "mcap_change_24h_pct": 23.071349484811577,
-        "volume_24h_usd": 131005432.09137301,
-        "breadth_7d_pct": 100.0,
-        "median_7d_pct": 59.5,
-        "leaders": [
-          {
-            "name": "LAB",
-            "symbol": "LAB",
-            "price_change_7d_pct": 59.453550056116065,
-            "price_change_30d_pct": 236.11294331042365,
-            "market_cap_usd": 4983729554.0
-          },
-          {
-            "name": "Plasma",
-            "symbol": "XPL",
-            "price_change_7d_pct": 4.814050611758463,
-            "price_change_30d_pct": 5.3395566560814745,
-            "market_cap_usd": 236209454.0
-          }
-        ],
-        "signals": [
-          "broad_heating",
-          "rotating_in"
-        ],
-        "rank_key": 102.57
-      },
-      {
-        "id": "timefi",
-        "name": "TimeFi",
-        "market_cap_usd": 194859729,
-        "mcap_change_24h_pct": 7.8054270179361005,
-        "volume_24h_usd": 8375392.120870519,
-        "breadth_7d_pct": 100.0,
-        "median_7d_pct": 12.6,
-        "leaders": [
-          {
-            "name": "Pieverse",
-            "symbol": "PIEVERSE",
-            "price_change_7d_pct": 12.633447862415679,
-            "price_change_30d_pct": -8.724865768832714,
-            "market_cap_usd": 194957077.0
-          }
-        ],
-        "signals": [
-          "broad_heating",
-          "rotating_in"
-        ],
-        "rank_key": 40.41
-      },
-      {
         "id": "breeding",
         "name": "Breeding",
-        "market_cap_usd": 194466228,
-        "mcap_change_24h_pct": 16.05410605146875,
-        "volume_24h_usd": 147493328.59103194,
+        "market_cap_usd": 196369966,
+        "mcap_change_24h_pct": 17.190223710989237,
+        "volume_24h_usd": 91165105.87953228,
         "breadth_7d_pct": 64.3,
         "median_7d_pct": 3.5,
         "leaders": [
@@ -1071,201 +1015,275 @@
           {
             "name": "Axie Infinity",
             "symbol": "AXS",
-            "price_change_7d_pct": 16.170190010376647,
-            "price_change_30d_pct": -8.457414157007042,
-            "market_cap_usd": 192418098.0
+            "price_change_7d_pct": 17.409253267267733,
+            "price_change_30d_pct": -7.709046242580156,
+            "market_cap_usd": 193507241.0
           },
           {
-            "name": "Waves Ducks",
-            "symbol": "EGG",
-            "price_change_7d_pct": 14.02693545697522,
-            "price_change_30d_pct": -41.446656926832496,
-            "market_cap_usd": 173196.0
+            "name": "Honeyland",
+            "symbol": "HXD",
+            "price_change_7d_pct": 13.045946794508112,
+            "price_change_30d_pct": -14.681788908955387,
+            "market_cap_usd": 99220.0
           }
         ],
         "signals": [
           "broad_heating",
           "rotating_in"
         ],
-        "rank_key": 32.41
+        "rank_key": 33.55
       },
       {
         "id": "simulation-games",
         "name": "Simulation Games",
-        "market_cap_usd": 322339296,
-        "mcap_change_24h_pct": 12.99974781633784,
-        "volume_24h_usd": 242582118.83575222,
-        "breadth_7d_pct": 55.6,
-        "median_7d_pct": 4.1,
+        "market_cap_usd": 321927141,
+        "mcap_change_24h_pct": 12.855261890857289,
+        "volume_24h_usd": 223091569.2975593,
+        "breadth_7d_pct": 66.7,
+        "median_7d_pct": 4.7,
         "leaders": [
           {
             "name": "My Neighbor Alice",
             "symbol": "ALICE",
-            "price_change_7d_pct": 37.53512189941844,
-            "price_change_30d_pct": 10.945784424446437,
-            "market_cap_usd": 14320339.0
+            "price_change_7d_pct": 35.422060238460176,
+            "price_change_30d_pct": 9.19634710775056,
+            "market_cap_usd": 14021429.0
           },
           {
             "name": "Decentraland",
             "symbol": "MANA",
-            "price_change_7d_pct": 13.100035432294115,
-            "price_change_30d_pct": -16.02990032392315,
-            "market_cap_usd": 144873783.0
+            "price_change_7d_pct": 15.358491212306276,
+            "price_change_30d_pct": -15.68350914684316,
+            "market_cap_usd": 146157897.0
           },
           {
             "name": "The Sandbox",
             "symbol": "SAND",
-            "price_change_7d_pct": 10.416000172915407,
-            "price_change_30d_pct": -21.561337358492423,
-            "market_cap_usd": 153405027.0
+            "price_change_7d_pct": 11.935428078057784,
+            "price_change_30d_pct": -22.33304627873995,
+            "market_cap_usd": 151796911.0
           }
         ],
         "signals": [
           "broad_heating",
           "rotating_in"
         ],
-        "rank_key": 28.22
-      },
-      {
-        "id": "analytics",
-        "name": "Analytics",
-        "market_cap_usd": 6433455635,
-        "mcap_change_24h_pct": 18.501973851287964,
-        "volume_24h_usd": 275139097.1079764,
-        "breadth_7d_pct": 48.0,
-        "median_7d_pct": -0.1,
-        "leaders": [
-          {
-            "name": "LAB",
-            "symbol": "LAB",
-            "price_change_7d_pct": 59.453550056116065,
-            "price_change_30d_pct": 236.11294331042365,
-            "market_cap_usd": 4983729554.0
-          },
-          {
-            "name": "Superfortune",
-            "symbol": "GUA",
-            "price_change_7d_pct": 19.090285158016805,
-            "price_change_30d_pct": -47.27630609373263,
-            "market_cap_usd": 34477493.0
-          },
-          {
-            "name": "TrenchBuddy",
-            "symbol": "TRENCH",
-            "price_change_7d_pct": 13.57550060769926,
-            "price_change_30d_pct": -5.4800010593687585,
-            "market_cap_usd": 847761.0
-          }
-        ],
-        "signals": [],
-        "rank_key": 28.0
-      },
-      {
-        "id": "launchpad",
-        "name": "Launchpad",
-        "market_cap_usd": 8030127713,
-        "mcap_change_24h_pct": 17.06676926885129,
-        "volume_24h_usd": 414156741.12607366,
-        "breadth_7d_pct": 50.0,
-        "median_7d_pct": 0.6,
-        "leaders": [
-          {
-            "name": "Orynth",
-            "symbol": "ORY",
-            "price_change_7d_pct": 232.91609486759057,
-            "price_change_30d_pct": 453.6164716368095,
-            "market_cap_usd": 1326913.0
-          },
-          {
-            "name": "Meteora",
-            "symbol": "MET",
-            "price_change_7d_pct": 73.09802795454425,
-            "price_change_30d_pct": 20.87541017547567,
-            "market_cap_usd": 95179251.0
-          },
-          {
-            "name": "Believe",
-            "symbol": "BELIEVE",
-            "price_change_7d_pct": 61.87826608835889,
-            "price_change_30d_pct": -14.625985997244936,
-            "market_cap_usd": 2301908.0
-          }
-        ],
-        "signals": [
-          "rotating_in"
-        ],
-        "rank_key": 27.67
+        "rank_key": 30.9
       },
       {
         "id": "wojak-themed",
         "name": "Wojak-Themed",
-        "market_cap_usd": 95711096,
-        "mcap_change_24h_pct": 9.91311500423336,
-        "volume_24h_usd": 6979275.261448639,
-        "breadth_7d_pct": 58.1,
-        "median_7d_pct": 1.1,
+        "market_cap_usd": 94822557,
+        "mcap_change_24h_pct": 8.892730471026093,
+        "volume_24h_usd": 6353549.854307421,
+        "breadth_7d_pct": 61.3,
+        "median_7d_pct": 4.4,
         "leaders": [
           {
             "name": "wojak",
             "symbol": "WOJAK",
-            "price_change_7d_pct": 156.57126834378542,
-            "price_change_30d_pct": 105.23081965527845,
-            "market_cap_usd": 41102382.0
-          },
-          {
-            "name": "forever alone",
-            "symbol": "ALONE",
-            "price_change_7d_pct": 78.01499929504358,
-            "price_change_30d_pct": 4.883989638398437,
-            "market_cap_usd": 144941.0
+            "price_change_7d_pct": 147.26736388694667,
+            "price_change_30d_pct": 105.8185862379615,
+            "market_cap_usd": 39823083.0
           },
           {
             "name": "Purple Wojak",
             "symbol": "PURK",
-            "price_change_7d_pct": 36.8298868306262,
-            "price_change_30d_pct": -25.700136407959207,
-            "market_cap_usd": 20609.0
+            "price_change_7d_pct": 44.764191004586486,
+            "price_change_30d_pct": -22.35266339439231,
+            "market_cap_usd": 21351.0
+          },
+          {
+            "name": "forever alone",
+            "symbol": "ALONE",
+            "price_change_7d_pct": 37.85879239521914,
+            "price_change_30d_pct": -28.459818455596377,
+            "market_cap_usd": 109229.0
           }
         ],
         "signals": [
           "broad_heating",
           "rotating_in"
         ],
-        "rank_key": 22.63
+        "rank_key": 25.55
+      },
+      {
+        "id": "prediction-market-tools",
+        "name": "Prediction Market Tools",
+        "market_cap_usd": 104711327,
+        "mcap_change_24h_pct": 10.110493900676985,
+        "volume_24h_usd": 25052878.916939493,
+        "breadth_7d_pct": 50.0,
+        "median_7d_pct": 5.3,
+        "leaders": [
+          {
+            "name": "Flipr.bet",
+            "symbol": "FLIPR",
+            "price_change_7d_pct": 48.87582708408014,
+            "price_change_30d_pct": 8.570513339506668,
+            "market_cap_usd": 111011.0
+          },
+          {
+            "name": "Polymtrade",
+            "symbol": "PM",
+            "price_change_7d_pct": 45.51601043267846,
+            "price_change_30d_pct": 44.77868390229675,
+            "market_cap_usd": 231166.0
+          },
+          {
+            "name": "Based",
+            "symbol": "BASED",
+            "price_change_7d_pct": 44.07101843059464,
+            "price_change_30d_pct": 23.602041045396984,
+            "market_cap_usd": 22308120.0
+          }
+        ],
+        "signals": [
+          "rotating_in"
+        ],
+        "rank_key": 25.41
       },
       {
         "id": "card-games",
         "name": "Card Games",
-        "market_cap_usd": 236776951,
-        "mcap_change_24h_pct": 13.167438995308753,
-        "volume_24h_usd": 157775727.03607827,
-        "breadth_7d_pct": 38.2,
-        "median_7d_pct": -1.7,
+        "market_cap_usd": 238507260,
+        "mcap_change_24h_pct": 13.994439346200089,
+        "volume_24h_usd": 99843764.96720546,
+        "breadth_7d_pct": 41.2,
+        "median_7d_pct": -0.8,
         "leaders": [
           {
             "name": "Axie Infinity",
             "symbol": "AXS",
-            "price_change_7d_pct": 16.170190010376647,
-            "price_change_30d_pct": -8.457414157007042,
-            "market_cap_usd": 192418098.0
+            "price_change_7d_pct": 17.409253267267733,
+            "price_change_30d_pct": -7.709046242580156,
+            "market_cap_usd": 193507241.0
           },
           {
             "name": "Raini Studios Token",
             "symbol": "RST",
-            "price_change_7d_pct": 7.540149534978839,
-            "price_change_30d_pct": -33.330920950700815,
-            "market_cap_usd": 69791.0
+            "price_change_7d_pct": 8.230387699768746,
+            "price_change_30d_pct": -32.90301060307522,
+            "market_cap_usd": 70239.0
           },
           {
-            "name": "Wild Forest Token",
-            "symbol": "WF",
-            "price_change_7d_pct": 5.893636573127166,
-            "price_change_30d_pct": -44.77119056375318,
-            "market_cap_usd": 79300.0
+            "name": "SolForge Fusion",
+            "symbol": "SFG",
+            "price_change_7d_pct": 6.847284403323142,
+            "price_change_30d_pct": -24.022406762838184,
+            "market_cap_usd": 92481.0
           }
         ],
         "signals": [],
-        "rank_key": 19.11
+        "rank_key": 21.43
+      },
+      {
+        "id": "layer-3-l3",
+        "name": "Layer 3 (L3)",
+        "market_cap_usd": 161461064,
+        "mcap_change_24h_pct": 7.527054909548009,
+        "volume_24h_usd": 25408993.174198415,
+        "breadth_7d_pct": 57.1,
+        "median_7d_pct": 1.9,
+        "leaders": [
+          {
+            "name": "Dream Machine Token",
+            "symbol": "DMT",
+            "price_change_7d_pct": 453.2777291440357,
+            "price_change_30d_pct": 365.16568497818025,
+            "market_cap_usd": 7644100.0
+          },
+          {
+            "name": "Degen",
+            "symbol": "DEGEN",
+            "price_change_7d_pct": 26.21259478160967,
+            "price_change_30d_pct": 102.4685625521767,
+            "market_cap_usd": 70052215.0
+          },
+          {
+            "name": "Cheese",
+            "symbol": "CHEESE",
+            "price_change_7d_pct": 7.30883069037698,
+            "price_change_30d_pct": -19.6589735363771,
+            "market_cap_usd": 29412.0
+          }
+        ],
+        "signals": [
+          "broad_heating",
+          "rotating_in"
+        ],
+        "rank_key": 20.85
+      },
+      {
+        "id": "socialfi",
+        "name": "SocialFi",
+        "market_cap_usd": 1228465466,
+        "mcap_change_24h_pct": 6.924137526791027,
+        "volume_24h_usd": 105577748.28312765,
+        "breadth_7d_pct": 60.0,
+        "median_7d_pct": 1.2,
+        "leaders": [
+          {
+            "name": "Bitsocial",
+            "symbol": "BSO",
+            "price_change_7d_pct": 988474.3224858639,
+            "price_change_30d_pct": 988474.3224858639,
+            "market_cap_usd": 1700684.0
+          },
+          {
+            "name": "Dream Machine Token",
+            "symbol": "DMT",
+            "price_change_7d_pct": 453.3561087418173,
+            "price_change_30d_pct": 365.23158226153345,
+            "market_cap_usd": 7644100.0
+          },
+          {
+            "name": "Hana Network",
+            "symbol": "HANA",
+            "price_change_7d_pct": 29.52880933760057,
+            "price_change_30d_pct": 13.83720180751845,
+            "market_cap_usd": 9483889.0
+          }
+        ],
+        "signals": [
+          "broad_heating",
+          "rotating_in"
+        ],
+        "rank_key": 20.12
+      },
+      {
+        "id": "dex-aggregator",
+        "name": "Dex Aggregator",
+        "market_cap_usd": 1027248211,
+        "mcap_change_24h_pct": 9.013514241360797,
+        "volume_24h_usd": 126378177.50125515,
+        "breadth_7d_pct": 48.4,
+        "median_7d_pct": -0.1,
+        "leaders": [
+          {
+            "name": "MasterDEX",
+            "symbol": "MDEX",
+            "price_change_7d_pct": 58.598309030034635,
+            "price_change_30d_pct": -38.863587607425885,
+            "market_cap_usd": 273915.0
+          },
+          {
+            "name": "Jupiter",
+            "symbol": "JUP",
+            "price_change_7d_pct": 31.100133219876486,
+            "price_change_30d_pct": 3.6844118500625336,
+            "market_cap_usd": 733798221.0
+          },
+          {
+            "name": "Hera Finance",
+            "symbol": "HERA",
+            "price_change_7d_pct": 11.401872529079387,
+            "price_change_30d_pct": 5.834026027651975,
+            "market_cap_usd": 6737507.0
+          }
+        ],
+        "signals": [],
+        "rank_key": 18.59
       }
     ]
   },
@@ -1295,103 +1313,103 @@
     "source": "CoinGecko /search/trending (search/view velocity = retail attention proxy; LunarCrush free tier is locked/402)",
     "trending_coins": [
       {
-        "name": "Backpack",
-        "symbol": "BP",
-        "market_cap_rank": 188,
-        "price_change_24h_pct": 13.005474612211646
+        "name": "Pudgy Penguins",
+        "symbol": "PENGU",
+        "market_cap_rank": 113,
+        "price_change_24h_pct": 1.9033766484490824
       },
       {
         "name": "Tensor",
         "symbol": "TNSR",
-        "market_cap_rank": 876,
-        "price_change_24h_pct": 83.15462418250794
+        "market_cap_rank": 944,
+        "price_change_24h_pct": 52.68206872523732
       },
       {
-        "name": "Solana",
-        "symbol": "SOL",
-        "market_cap_rank": 7,
-        "price_change_24h_pct": 1.6507159252632069
+        "name": "Aerodrome Finance",
+        "symbol": "AERO",
+        "market_cap_rank": 103,
+        "price_change_24h_pct": 2.727873001030695
       },
       {
-        "name": "Siren",
-        "symbol": "SIREN",
-        "market_cap_rank": 317,
-        "price_change_24h_pct": -11.08024076422406
+        "name": "LAB",
+        "symbol": "LAB",
+        "market_cap_rank": 25,
+        "price_change_24h_pct": 10.10689432309992
       },
       {
-        "name": "Pudgy Penguins",
-        "symbol": "PENGU",
-        "market_cap_rank": 113,
-        "price_change_24h_pct": 0.7865371836154958
+        "name": "RE",
+        "symbol": "RE",
+        "market_cap_rank": 208,
+        "price_change_24h_pct": -7.858475667592765
       },
       {
-        "name": "Bitcoin",
-        "symbol": "BTC",
-        "market_cap_rank": 1,
-        "price_change_24h_pct": 0.43439881409028613
+        "name": "Backpack",
+        "symbol": "BP",
+        "market_cap_rank": 188,
+        "price_change_24h_pct": 16.30485027830366
       },
       {
         "name": "Bittensor",
         "symbol": "TAO",
         "market_cap_rank": 41,
-        "price_change_24h_pct": 0.7477202070180772
-      },
-      {
-        "name": "Meteora",
-        "symbol": "MET",
-        "market_cap_rank": 273,
-        "price_change_24h_pct": 23.72591329836933
-      },
-      {
-        "name": "Ethereum",
-        "symbol": "ETH",
-        "market_cap_rank": 2,
-        "price_change_24h_pct": -0.6012888430288773
-      },
-      {
-        "name": "Aave",
-        "symbol": "AAVE",
-        "market_cap_rank": 64,
-        "price_change_24h_pct": -1.5450437984598036
-      },
-      {
-        "name": "RE",
-        "symbol": "RE",
-        "market_cap_rank": 207,
-        "price_change_24h_pct": -4.401506684163594
+        "price_change_24h_pct": 1.4281326270986716
       },
       {
         "name": "Hyperliquid",
         "symbol": "HYPE",
         "market_cap_rank": 10,
-        "price_change_24h_pct": -5.3522256235482315
+        "price_change_24h_pct": -3.082728039205015
       },
       {
-        "name": "Main Street USD",
-        "symbol": "MSUSD",
-        "market_cap_rank": 752,
-        "price_change_24h_pct": -68.5801383126399
+        "name": "Jupiter",
+        "symbol": "JUP",
+        "market_cap_rank": 81,
+        "price_change_24h_pct": 7.5904313401451375
       },
       {
-        "name": "Canton",
-        "symbol": "CC",
-        "market_cap_rank": 20,
-        "price_change_24h_pct": 0.5220824167206395
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "market_cap_rank": 1,
+        "price_change_24h_pct": 0.05667673605977024
       },
       {
-        "name": "Aerodrome Finance",
-        "symbol": "AERO",
-        "market_cap_rank": 100,
-        "price_change_24h_pct": 10.651061992888012
+        "name": "Pi Network",
+        "symbol": "PI",
+        "market_cap_rank": 54,
+        "price_change_24h_pct": 0.48070181114860877
+      },
+      {
+        "name": "Meteora",
+        "symbol": "MET",
+        "market_cap_rank": 283,
+        "price_change_24h_pct": 16.952093110214893
+      },
+      {
+        "name": "Solana",
+        "symbol": "SOL",
+        "market_cap_rank": 7,
+        "price_change_24h_pct": 2.6997748850656462
+      },
+      {
+        "name": "Jito",
+        "symbol": "JTO",
+        "market_cap_rank": 129,
+        "price_change_24h_pct": -0.26272141172597563
+      },
+      {
+        "name": "Sui",
+        "symbol": "SUI",
+        "market_cap_rank": 32,
+        "price_change_24h_pct": 0.05588898157234684
       }
     ],
     "trending_categories": [
-      "Binance Alpha Spotlight",
-      "NFT Marketplace",
-      "USD Stablecoin",
-      "Base Native",
-      "Alleged SEC Securities",
-      "Proof of Work (PoW)"
+      "Derivatives",
+      "Decentralized Exchange (DEX)",
+      "Automated Market Maker (AMM)",
+      "Artificial Intelligence (AI)",
+      "CoinList Launchpad",
+      "Proof of Stake (PoS)"
     ]
   },
   "pre_winner_lookalikes": {
@@ -1936,5 +1954,457 @@
       }
     ],
     "age_days": 0
+  },
+  "dev_governance": {
+    "note": "Pre-announcement layer (early, low-crowd): GitHub releases/commit-activity + Snapshot governance for tracked protocols. A fresh_release or a pending 'launch/fund X' proposal precedes the marketing post.",
+    "dev": [
+      {
+        "chain": "Sui",
+        "repo": "MystenLabs/sui",
+        "latest_release": "mainnet-v1.73.2",
+        "release_date": "2026-06-17",
+        "days_since_release": 4,
+        "component_release": false,
+        "commits_30d": 100,
+        "commits_30d_capped": true,
+        "fresh_release": true
+      },
+      {
+        "chain": "Solana",
+        "repo": "anza-xyz/agave",
+        "latest_release": "v4.1.0-rc.1",
+        "release_date": "2026-06-16",
+        "days_since_release": 5,
+        "component_release": false,
+        "commits_30d": 100,
+        "commits_30d_capped": true,
+        "fresh_release": true
+      },
+      {
+        "chain": "Aptos",
+        "repo": "aptos-labs/aptos-core",
+        "latest_release": "aptos-node-v1.47.1-rc",
+        "release_date": "2026-06-15",
+        "days_since_release": 6,
+        "component_release": false,
+        "commits_30d": 100,
+        "commits_30d_capped": true,
+        "fresh_release": true
+      },
+      {
+        "chain": "Arbitrum",
+        "repo": "OffchainLabs/nitro",
+        "latest_release": "v3.11.0-rc.3",
+        "release_date": "2026-06-10",
+        "days_since_release": 11,
+        "component_release": false,
+        "commits_30d": 100,
+        "commits_30d_capped": true,
+        "fresh_release": true
+      },
+      {
+        "chain": "Sei",
+        "repo": "sei-protocol/sei-chain",
+        "latest_release": "v6.5.2",
+        "release_date": "2026-06-09",
+        "days_since_release": 12,
+        "component_release": false,
+        "commits_30d": 85,
+        "commits_30d_capped": false,
+        "fresh_release": true
+      },
+      {
+        "chain": "OP Mainnet",
+        "repo": "ethereum-optimism/optimism",
+        "latest_release": "kona-host/v1.6.0",
+        "release_date": "2026-06-19",
+        "days_since_release": 2,
+        "component_release": true,
+        "commits_30d": 100,
+        "commits_30d_capped": true,
+        "fresh_release": false
+      },
+      {
+        "chain": "Near",
+        "repo": "near/nearcore",
+        "latest_release": "2.12.0",
+        "release_date": "2026-06-03",
+        "days_since_release": 18,
+        "component_release": false,
+        "commits_30d": 100,
+        "commits_30d_capped": true,
+        "fresh_release": false
+      },
+      {
+        "chain": "Base",
+        "repo": "base-org/node",
+        "latest_release": null,
+        "release_date": null,
+        "days_since_release": null,
+        "component_release": false,
+        "commits_30d": null,
+        "commits_30d_capped": false,
+        "fresh_release": false
+      },
+      {
+        "chain": "Polygon",
+        "repo": "maticnetwork/bor",
+        "latest_release": null,
+        "release_date": null,
+        "days_since_release": null,
+        "component_release": false,
+        "commits_30d": null,
+        "commits_30d_capped": false,
+        "fresh_release": false
+      },
+      {
+        "chain": "Berachain",
+        "repo": "berachain/beacon-kit",
+        "latest_release": null,
+        "release_date": null,
+        "days_since_release": null,
+        "component_release": false,
+        "commits_30d": null,
+        "commits_30d_capped": false,
+        "fresh_release": false
+      },
+      {
+        "chain": "Starknet",
+        "repo": "starkware-libs/sequencer",
+        "latest_release": null,
+        "release_date": null,
+        "days_since_release": null,
+        "component_release": false,
+        "commits_30d": null,
+        "commits_30d_capped": false,
+        "fresh_release": false
+      }
+    ],
+    "governance": [
+      {
+        "protocol": "Arbitrum",
+        "space": "arbitrumfoundation.eth",
+        "title": "Extending DRIP\u2019s Mandate",
+        "state": "active",
+        "start": "2026-06-18",
+        "end": "2026-06-25",
+        "link": "https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0xa69fce8c756ac96160ddb6ac09653d3254415d046fdd43e5876663e9f343f183"
+      },
+      {
+        "protocol": "Arbitrum",
+        "space": "arbitrumfoundation.eth",
+        "title": "[Constitutional] AIP: Transition Arbitrum One ordering policy to Priority Gas Auctions (PGA)",
+        "state": "active",
+        "start": "2026-06-18",
+        "end": "2026-06-25",
+        "link": "https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0xb380013efad355a9888561e1a108f0e6344f2e39c11087bb9043378d14ecec4d"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "FXN Gauge Weight for Week of 18th Jun 2026",
+        "state": "active",
+        "start": "2026-06-18",
+        "end": "2026-06-23",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0xbb4778bf66436dd455bb49cb419d910b99442f34020bdd389c8f0f04c7a7e6f1"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "Gauge Weight for Week of 18th Jun 2026",
+        "state": "active",
+        "start": "2026-06-18",
+        "end": "2026-06-23",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0xa7540e2eea2bad3a3239d8492c3cc996069663c471e5153265f4532ae6e768b4"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1439",
+        "state": "closed",
+        "start": "2026-06-15",
+        "end": "2026-06-18",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x6ac1a7a5ddae05868241f57e1a231a1101c09430b321bf9f622a12a780f6ab69"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Frax] [FIP-447] Increase Aave v4 Allocation Cap for sfrxUSD Strategy from 20M to 50M",
+        "state": "closed",
+        "start": "2026-06-15",
+        "end": "2026-06-18",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x0d1afb309823a8b81548204fe764bb6fa3304f47af14fbe99ecda08c941b5636"
+      },
+      {
+        "protocol": "Frax",
+        "space": "frax.eth",
+        "title": "[FIP-447] Increase Aave v4 Allocation Cap for sfrxUSD Strategy from 20M to 50M",
+        "state": "closed",
+        "start": "2026-06-15",
+        "end": "2026-06-20",
+        "link": "https://snapshot.box/#/s:frax.eth/proposal/0xd173e667b2300889bed63c95946a8193222ff516a0b90fcb62d7fd6869b536c8"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Frax] [FIP - 446] Early withdrawal of stkcvxSTGFRAXBP and stkcvxCOILFRAXBP",
+        "state": "closed",
+        "start": "2026-06-15",
+        "end": "2026-06-18",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x438fd975b869887613329f938397a6922a8cfae4be9638f3b1bbda2b7131de0f"
+      },
+      {
+        "protocol": "Frax",
+        "space": "frax.eth",
+        "title": "[FIP - 446] Early withdrawal of stkcvxSTGFRAXBP and stkcvxCOILFRAXBP",
+        "state": "closed",
+        "start": "2026-06-15",
+        "end": "2026-06-20",
+        "link": "https://snapshot.box/#/s:frax.eth/proposal/0xceece4f24892a198770dd65c527a216c57aca541b42d0ac735917bbd3a19616c"
+      },
+      {
+        "protocol": "Lido",
+        "space": "lido-snapshot.eth",
+        "title": "LIP-35: Staking Router v3 Architecture and Key Parameters",
+        "state": "active",
+        "start": "2026-06-15",
+        "end": "2026-06-22",
+        "link": "https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x8fdec5d2cb70f8a266c4f5a269051fcfa985fab0f66cbe747702719d7433f606"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1438",
+        "state": "closed",
+        "start": "2026-06-15",
+        "end": "2026-06-18",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x9de0f2b52053031e8f1961ce51b55be64bdf00b231d07b3a7858139c6eb3f70b"
+      },
+      {
+        "protocol": "Lido",
+        "space": "lido-snapshot.eth",
+        "title": "LIP-33: CMv2 and CSMv3 Architecture, Key Parameters, Rollout Plan",
+        "state": "active",
+        "start": "2026-06-15",
+        "end": "2026-06-22",
+        "link": "https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x7b07bc31f0b38b69a117473031bc126becc70b9fa37246b53d9fe5a841c814f5"
+      },
+      {
+        "protocol": "Lido",
+        "space": "lido-snapshot.eth",
+        "title": "Lido Labs Board Update: Appointment of Nemo as Director",
+        "state": "active",
+        "start": "2026-06-15",
+        "end": "2026-06-22",
+        "link": "https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x3e74af3eb9119c60616c93d1ecccc3bcbd1af27e3895f2e354217872ae116e76"
+      },
+      {
+        "protocol": "Lido",
+        "space": "lido-snapshot.eth",
+        "title": "Wind Down Simple DVT Module Regular Clusters",
+        "state": "active",
+        "start": "2026-06-15",
+        "end": "2026-06-22",
+        "link": "https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x6ab9651fba999ba29ba780fe61d68cc23e7aeb83c841181c5c1933dec9197f37"
+      },
+      {
+        "protocol": "Lido",
+        "space": "lido-snapshot.eth",
+        "title": "Revoke Canonical Status of (w)stETH Bridge Endpoints on Selected Chains and Authorize NEC for Revocations",
+        "state": "active",
+        "start": "2026-06-15",
+        "end": "2026-06-22",
+        "link": "https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x09880de4739dcef13c4aa5605f1dca23556fc7495d09ecc84561a10f26a59b5c"
+      },
+      {
+        "protocol": "Lido",
+        "space": "lido-snapshot.eth",
+        "title": "Galaxy Node Operator Infrastructure Update",
+        "state": "active",
+        "start": "2026-06-15",
+        "end": "2026-06-22",
+        "link": "https://snapshot.box/#/s:lido-snapshot.eth/proposal/0x644ddd8079f1f802f3da16b11556412cec4f753a1b942fa8456c631a265a4083"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1437",
+        "state": "closed",
+        "start": "2026-06-10",
+        "end": "2026-06-13",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x67b05fd8b34ec9c5e6495115066c4741c4c36f9aaaec9f74bf4b69d4a542f162"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1436",
+        "state": "closed",
+        "start": "2026-06-10",
+        "end": "2026-06-13",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x32c9f9a15425fc3ecb8d5c7f2177f8b2dc5c898c9f2ddfc9d4a4bd2303b69be1"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1435",
+        "state": "closed",
+        "start": "2026-06-10",
+        "end": "2026-06-13",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x8d7d88a011a23238e707dfbf2215bd2fdc190c2c6a1d5c229547dab88fb359e8"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1434",
+        "state": "closed",
+        "start": "2026-06-09",
+        "end": "2026-06-12",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0xc88ed0d44dbf936643a2c1cfa0e0afac415dd95ac2680fe9a9351ff9a10a79ac"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1433",
+        "state": "closed",
+        "start": "2026-06-09",
+        "end": "2026-06-12",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0xd883a8194e87fa73677a9c7d2097ea58922de03f4c52bb55b5dea3016f7f7ea8"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Resupply] DAO Vote ID: 21",
+        "state": "closed",
+        "start": "2026-06-09",
+        "end": "2026-06-14",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x5942710c5416505f02e3ed8e890c4bceb602071c0335dfd930f2aab0b8680107"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1432",
+        "state": "closed",
+        "start": "2026-06-08",
+        "end": "2026-06-11",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x8552aae479d2f06e2e3da7b154d280e78fd40038d052238bb5b3b9bcd94b2520"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1431",
+        "state": "closed",
+        "start": "2026-06-08",
+        "end": "2026-06-11",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x4f2053ff74eba4cbb7085e35a1686ae6c91f374569220e8431be5554ba77ba8d"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1430",
+        "state": "closed",
+        "start": "2026-06-05",
+        "end": "2026-06-08",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x2967d34c440986cfe087673657e75ec9e19aede057ef6ce1fc1f97a9240fe561"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1429",
+        "state": "closed",
+        "start": "2026-06-04",
+        "end": "2026-06-07",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x163568ff7dbdc76ddd1707e8534d5068a63fdf2254989f6c73e4ebc7dadb2fca"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "FXN Gauge Weight for Week of 4th Jun 2026",
+        "state": "closed",
+        "start": "2026-06-04",
+        "end": "2026-06-09",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0xad4b46e0ad4ca5bce7a7d7fb614c46530808f72b96d0e1aff5fcce8e183f86c2"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "Gauge Weight for Week of 4th Jun 2026",
+        "state": "closed",
+        "start": "2026-06-04",
+        "end": "2026-06-09",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x2976ad71ae0b007b8108f9b0e3c9405b5b50630eed35364e4aee00c1af0b364e"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Resupply] DAO Vote ID: 20",
+        "state": "closed",
+        "start": "2026-06-03",
+        "end": "2026-06-08",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x3aff3773f66ee3cd0f05262135973e6aaab2c418cda2486a6c3ad48c76214ce2"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1428",
+        "state": "closed",
+        "start": "2026-06-03",
+        "end": "2026-06-06",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0xadcef07d03bd843a1a4dee541678243e9e11821bae2630029e470f9214efa84f"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1427",
+        "state": "closed",
+        "start": "2026-06-02",
+        "end": "2026-06-05",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x3f7cd4db73109c1680705e0fc3e3c47b9bcb5e4ef66afce811f933aa32dde6a3"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1426",
+        "state": "closed",
+        "start": "2026-06-02",
+        "end": "2026-06-05",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x026459ec311552e6573d0b48eb2bc782ebb818f19f12293f54ea213c34deb81e"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1425",
+        "state": "closed",
+        "start": "2026-06-02",
+        "end": "2026-06-05",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0xa80e613f4b89d1a64a8b6e4dcbec7c2a6e284a8bc69627eb6b9889df93eb4091"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1424",
+        "state": "closed",
+        "start": "2026-06-01",
+        "end": "2026-06-04",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x7102c25b430aad4a829c9b02fbcd1ac539997fb179de21d763dce938e21fd3f5"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1423",
+        "state": "closed",
+        "start": "2026-06-01",
+        "end": "2026-06-04",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x82cad694d90227be57be7db85e5c121f9dd5d690b4d18e28556317c0ec664aaa"
+      },
+      {
+        "protocol": "Convex",
+        "space": "cvx.eth",
+        "title": "[Curve] Ownership DAO Vote ID: 1422",
+        "state": "closed",
+        "start": "2026-06-01",
+        "end": "2026-06-04",
+        "link": "https://snapshot.box/#/s:cvx.eth/proposal/0x2f20c41df3d3d128388f82d8fb5ec423320a98f4011b04d70ed0573b65ef3b27"
+      }
+    ]
   }
 }
