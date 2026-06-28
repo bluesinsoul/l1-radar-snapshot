@@ -1,14 +1,11 @@
-# l1-radar-snapshot
+# L1 Radar Feed
 
-Auto-generated **public data feed** for the *L1 Chain Radar* daily cloud routine.
+Machine-written daily snapshot of cross-chain L1/L2 metrics, distilled from the local
+`CoinResearch/L1` pipeline (`chains.db`: DeFiLlama TVL/stablecoins/DEX/fees, CoinGecko
+prices, growthepie/Dune activity). Consumed by the **L1 Chain Radar** cloud routine,
+which can't reach those APIs directly.
 
-`snapshot.json` holds the latest single-day cross-chain snapshot (TVL, stablecoin mcap,
-DEX volume, fees, active addresses, tx count, native price + cross-chain shares and
-day-over-day share deltas) for ~31 L1/L2 chains, plus total market mcap and dominance.
+- `snapshot.json` — latest day + day-over-day share deltas for the tracked chains.
+- `design-docs/*.md` — per-chain metric guidelines the routine follows.
 
-All figures are re-aggregated from **public APIs** (DeFiLlama, CoinGecko, growthepie). No
-proprietary content lives here — the analytical design docs are kept in a separate private repo.
-
-Regenerated nightly by `main.py export-snapshot` in the local L1 dashboard project and pushed here.
-The routine reads it via the raw URL:
-`https://raw.githubusercontent.com/bluesinsoul/l1-radar-snapshot/main/snapshot.json`
+Raw signals only — no composite scores. `null` means NO DATA (not zero). Overwritten daily.
